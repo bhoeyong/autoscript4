@@ -34,7 +34,7 @@ echo -e "$merah 13$putih. Customize your banner $biru(banner)"
 echo -e 
 echo -e ""
 echo -e "$cyan To exit the menu press$merah CTRL + C"
-echo -e "$putih==============================================================="
+echo -e "$putih⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄"
 read -rp " Please Enter The Number [1-13] : " -e num
 if [[ "$num" = "1" ]]; then
 usernew
