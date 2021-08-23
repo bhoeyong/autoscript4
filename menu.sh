@@ -35,7 +35,7 @@ echo -e
 echo -e ""
 echo -e "$cyan To exit the menu press$merah CTRL + C"
 echo -e "$putih⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄⑄"
-read -rp " Please Enter The Number [1-13] : " -e num
+read -rp " Please Enter The Number [1-12] : " -e num
 if [[ "$num" = "1" ]]; then
 usernew
 elif [[ "$num" = "2" ]]; then
