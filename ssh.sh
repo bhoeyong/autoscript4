@@ -166,13 +166,12 @@ wget -O menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/darkrenz/myscript1/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/darkrenz/myscript1/main/trial.sh"
 wget -O wipeout "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/darkrenz/myscript1/member.sh"
+wget -O ceklim "https://raw.githubusercontent.com/darkrenz/myscript1/main/ceklim.sh"
 wget -O delete "https://raw.githubusercontent.com/darkrenz/myscript1/main/delete.sh"
 wget -O check "https://raw.githubusercontent.com/darkrenz/myscript1/main/cek.sh"
 wget -O restart "https://raw.githubusercontent.com/darkrenz/myscript1/main/restart.sh"
 wget -O speedtest "https://github.com/darkrenz/myscript1/raw/main/speedtest_cli.py"
 wget -O info "https://raw.githubusercontent.com/darkrenz/myscript1/main/info.sh"
-wget -O ram "https://raw.githubusercontent.com/darkrenz/myscript1/main/ram.sh"
 wget -O renew "https://raw.githubusercontent.com/darkrenz/myscript1/main/renew.sh"
 wget -O autokill "https://raw.githubusercontent.com/darkrenz/myscript1/main/autokill.sh"
 wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/clear-log.sh"
@@ -183,8 +182,8 @@ echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 chmod +x menu
 chmod +x usernew
 chmod +x trial
-chmod +x wipeour
-chmod +x member
+chmod +x wipeout
+chmod +x ceklim
 chmod +x delete
 chmod +x check
 chmod +x restart
@@ -192,8 +191,6 @@ chmod +x speedtest
 chmod +x info
 chmod +x about
 chmod +x autokill
-chmod +x tendang
-chmod +x ram
 chmod +x renew
 chmod +x clear-log
 chmod +x banner
