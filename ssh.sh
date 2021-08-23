@@ -156,7 +156,6 @@ cd
 
 # download script
 cd /usr/bin
-wget -O addhost "https://raw.githubusercontent.com/darkrenz/myscript1/main/addhost.sh"
 wget -O about "https://raw.githubusercontent.com/darkrenz/myscript1/main/about.sh"
 wget -O menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/darkrenz/myscript1/main/usernew.sh"
@@ -175,7 +174,6 @@ wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/cle
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
-chmod +x addhost
 chmod +x menu
 chmod +x usernew
 chmod +x trial
