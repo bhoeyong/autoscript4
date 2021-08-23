@@ -37,7 +37,7 @@ rm -f /root/ssh.sh
 #rm -f /root/ssr.sh
 #rm -f /root/ins-vt.sh
 #rm -f /root/go.sh
-#rm -f /root/ipsec.sh
+rm -f /root/ipsec.sh
 history -c
 echo "1.1" > /home/ver
 clear
