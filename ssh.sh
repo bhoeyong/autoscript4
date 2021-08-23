@@ -165,7 +165,7 @@ wget -O about "https://raw.githubusercontent.com/darkrenz/myscript1/main/about.s
 wget -O menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/darkrenz/myscript1/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/darkrenz/myscript1/main/trial.sh"
-wget -O wipeout "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
+wget -O hapus "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
 wget -O ceklim "https://raw.githubusercontent.com/darkrenz/myscript1/main/ceklim.sh"
 wget -O delete "https://raw.githubusercontent.com/darkrenz/myscript1/main/delete.sh"
 wget -O check "https://raw.githubusercontent.com/darkrenz/myscript1/main/cek.sh"
@@ -182,7 +182,7 @@ echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 chmod +x menu
 chmod +x usernew
 chmod +x trial
-chmod +x wipeout
+chmod +x hapus
 chmod +x ceklim
 chmod +x delete
 chmod +x check
