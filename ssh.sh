@@ -82,7 +82,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo Type: menu" >> .profile
+echo "echo Modified by: PHC NOTE | Type: menu" >> .profile
 
 # install badvpn
 cd
@@ -176,7 +176,7 @@ wget -O ram "https://raw.githubusercontent.com/darkrenz/myscript1/main/ram.sh"
 wget -O renew "https://raw.githubusercontent.com/darkrenz/myscript1/main/renew.sh"
 wget -O autokill "https://raw.githubusercontent.com/darkrenz/myscript1/main/autokill.sh"
 wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/clear-log.sh"
-wget -O banner "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner-editor.sh"
+wget -O edit "https://raw.githubusercontent.com/darkrenz/myscript1/main/edit.sh"
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
@@ -196,7 +196,7 @@ chmod +x tendang
 chmod +x ram
 chmod +x renew
 chmod +x clear-log
-chmod +x banner
+chmod +x edit
 
 # remove unnecessary files
 apt -y autoclean
