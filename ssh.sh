@@ -165,10 +165,10 @@ wget -O about "https://raw.githubusercontent.com/darkrenz/myscript1/main/about.s
 wget -O menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/darkrenz/myscript1/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/darkrenz/myscript1/main/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
+wget -O wipeout "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
 wget -O member "https://raw.githubusercontent.com/darkrenz/myscript1/member.sh"
 wget -O delete "https://raw.githubusercontent.com/darkrenz/myscript1/main/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/darkrenz/myscript1/main/cek.sh"
+wget -O check "https://raw.githubusercontent.com/darkrenz/myscript1/main/cek.sh"
 wget -O restart "https://raw.githubusercontent.com/darkrenz/myscript1/main/restart.sh"
 wget -O speedtest "https://github.com/darkrenz/myscript1/raw/main/speedtest_cli.py"
 wget -O info "https://raw.githubusercontent.com/darkrenz/myscript1/main/info.sh"
@@ -183,10 +183,10 @@ echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 chmod +x menu
 chmod +x usernew
 chmod +x trial
-chmod +x hapus
+chmod +x wipeour
 chmod +x member
 chmod +x delete
-chmod +x cek
+chmod +x check
 chmod +x restart
 chmod +x speedtest
 chmod +x info
