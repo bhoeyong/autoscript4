@@ -7,7 +7,7 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e " AUTOSCRIPT BY ノート"
+echo -e "$━━━━━━━━━━━━━━━━━━━━━━━AUTOSCRIPT BY ノート"━━━━━━━━━━━━━━
 sleep 2
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$merah━━━━━━━━━━━━━━Welcome to my Script━━━━━━━━━━━━━━"
@@ -63,6 +63,7 @@ elif [[ "$num" = "12" ]]; then
 about
 elif [[ "$num" = "13" ]]; then
 banner
+echo -e ""
 else
 clear
 menu
