@@ -7,9 +7,12 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e ".......This Autoscript was modified by note......."
+sleep 5
+echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$merah━━━━━━━━━━━━━━Welcome to my Script━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━PHCORNER: N O T E━━━━━━━━━━━━━━"
-echo -e "$merah━━━━━━━━━━━━━━GITHUB: Darkrenz━━━━━━━━━━━━━━"
+echo -e "$merah━━━━━━━━━━━━━━Github: darkrenz━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━Autoscript by ノート━━━━━━━━━━━━━━"
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━$kuning OpenSSH & SSH/SSL WS━━━━━━━━━━━━━━━"
