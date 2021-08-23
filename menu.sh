@@ -44,7 +44,7 @@ trial
 elif [[ "$num" = "3" ]]; then
 renew
 elif [[ "$num" = "4" ]]; then
-wipeout
+hapus
 elif [[ "$num" = "5" ]]; then
 delete
 elif [[ "$num" = "6" ]]; then
