@@ -4,7 +4,7 @@ clear
 echo -e "* menu            : Displays a list of commands"
 echo -e "* usernew         : Creating SSH & OpenVPN accounts"
 echo -e "* trial           : Membuat akun trial"
-echo -e "* hapus           : Create a trial account"
+echo -e "* hapus           : Deleting SSH & OpenVPN accounts"
 echo -e "* cek             : Check user login"
 echo -e "* cekconfig       : Check the available config"
 echo -e "* member          : SSH & OpenVPN member list"
