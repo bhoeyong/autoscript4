@@ -10,7 +10,7 @@ clear
 echo -e " AUTOSCRIPT BY ノート"
 sleep 2
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "$merah ➢➢➢$putih Welcome to my Script"
+echo -e "$merah            Welcome to my Script"
 echo -e "$kuning           "PHCORNER: N O T E"
 echo -e "$merah             GITHUB: Darkrenz"
 echo -e "$kuning           Autoscript by ノート"
@@ -64,6 +64,6 @@ about
 elif [[ "$num" = "13" ]]; then
 banner
 else
-Menu
 clear
+menu
 fi
