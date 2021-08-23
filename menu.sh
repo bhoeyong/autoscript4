@@ -1,6 +1,5 @@
 #!/bin/bash
 #Menu
-clear
 merah="\e[1;31m"
 kuning="\e[1;33m"
 biru="\e[1;34m"
@@ -65,6 +64,6 @@ about
 elif [[ "$num" = "13" ]]; then
 banner
 else
+#Menu
 clear
-menu
 fi
