@@ -64,6 +64,6 @@ about
 elif [[ "$num" = "13" ]]; then
 banner
 else
-#Menu
+Menu
 clear
 fi
