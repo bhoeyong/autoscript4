@@ -173,7 +173,6 @@ wget -O restart "https://raw.githubusercontent.com/darkrenz/myscript1/main/resta
 wget -O speedtest "https://github.com/darkrenz/myscript1/raw/main/speedtest_cli.py"
 wget -O info "https://raw.githubusercontent.com/darkrenz/myscript1/main/info.sh"
 wget -O renew "https://raw.githubusercontent.com/darkrenz/myscript1/main/renew.sh"
-wget -O autokill "https://raw.githubusercontent.com/darkrenz/myscript1/main/autokill.sh"
 wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/clear-log.sh"
 wget -O banner "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner.sh"
 
@@ -190,7 +189,6 @@ chmod +x restart
 chmod +x speedtest
 chmod +x info
 chmod +x about
-chmod +x autokill
 chmod +x renew
 chmod +x clear-log
 chmod +x banner
