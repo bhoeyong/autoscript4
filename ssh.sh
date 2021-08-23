@@ -138,9 +138,6 @@ socket = r:TCP_NODELAY=1
 [stunnelws]
 accept = 443
 connect = 700
-[openvpn]
-accept = 992
-connect = 127.0.0.1:1194
 END
 
 echo "=================  membuat Sertifikat OpenSSL ======================"
@@ -156,9 +153,6 @@ cd
 sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 cd
 /etc/init.d/stunnel4 restart
-
-#OpenVPN
-wget https://raw.githubusercontent.com/darkrenz/myscript1/main/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
 
 # download script
 cd /usr/bin
@@ -211,7 +205,6 @@ apt -y autoremove
 cd
 chown -R www-data:www-data /home/vps/public_html
 /etc/init.d/nginx restart
-/etc/init.d/openvpn restart
 /etc/init.d/ssh restart
 /etc/init.d/stunnel4 restart
 /etc/init.d/vnstat restart
