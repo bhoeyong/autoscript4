@@ -7,9 +7,6 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "$━━━━━━━━━━━━━━━━━━━━━━━AUTOSCRIPT BY ノート"━━━━━━━━━━━━━━
-sleep 2
-echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$merah━━━━━━━━━━━━━━Welcome to my Script━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━PHCORNER: N O T E━━━━━━━━━━━━━━"
 echo -e "$merah━━━━━━━━━━━━━━GITHUB: Darkrenz━━━━━━━━━━━━━━"
