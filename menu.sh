@@ -10,10 +10,10 @@ echo -e "$putih━━━━━━━━━━━━━━━━━━━━━�
 echo -e ".......This Autoscript was modified by note......."
 sleep 5
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "$merah━━━━━━━━━━━━━━Welcome to my Script━━━━━━━━━━━━━━"
-echo -e "$kuning━━━━━━━━━━━━━━PHCORNER: N O T E━━━━━━━━━━━━━━"
-echo -e "$merah━━━━━━━━━━━━━━Github: darkrenz━━━━━━━━━━━━━━"
-echo -e "$kuning━━━━━━━━━━━━━━Autoscript by ノート━━━━━━━━━━━━━━"
+echo -e "$merah━━━━━━━━━━━━━━$putih Welcome to my Script $merah━━━━━━━━━━━━━━"
+echo -e "$kuning━━━━━━━━━━━━━━Modified: NOTE━━━━━━━━━━━━━━"
+echo -e "$merah━━━━━━━━━━━━━━$putih Github: darkrenz $merah━━━━━━━━━━━━━━"
+echo -e "$kuning━━━━━━━━━━━━━━M E N U ━━━━━━━━━━━━━━"
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━$kuning OpenSSH & SSH/SSL WS━━━━━━━━━━━━━━━"
 echo -e "$merah 1$putih. Create SSH & SSL Account $biru(usernew)"
@@ -31,12 +31,12 @@ echo -e "$merah 9$putih.  Reboot VPS $biru(reboot)"
 echo -e "$merah 10$putih. Speedtest VPS $biru(speedtest)"
 echo -e "$merah 11$putih. Display system information $biru(info)"
 echo -e "$merah 12$putih. Info script auto install $biru(about)"
-echo -e "$merah 16$putih. Customize your banner $biru(banner)"
+echo -e "$merah 13$putih. Customize your banner $biru(banner)"
 echo -e 
 echo -e ""
 echo -e "$cyan To exit the menu press$merah CTRL + C"
 echo -e "$putih==============================================================="
-read -rp " Please Enter The Number [1-60] : " -e num
+read -rp " Please Enter The Number [1-13] : " -e num
 if [[ "$num" = "1" ]]; then
 usernew
 elif [[ "$num" = "2" ]]; then
