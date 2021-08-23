@@ -7,8 +7,8 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e ".......This Autoscript was modified by note......."
-sleep 5
+echo -e ".....This Autoscript was modified by note....."
+sleep 3
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "$merah━━━━━━━━━━━━━━$putih Welcome to my Script $merah━━━━━━━━━━━━━━"
 echo -e "$kuning━━━━━━━━━━━━━━Modified: NOTE━━━━━━━━━━━━━━"
@@ -19,10 +19,9 @@ echo -e "$kuning━━━━━━━━━━━━━━$kuning OpenSSH & SSH/
 echo -e "$merah 1$putih. Create SSH & SSL Account $biru(usernew)"
 echo -e "$merah 2$putih. Generate SSH & SSL Trial Account $biru(trial)"
 echo -e "$merah 3$putih. Extending SSH & SSL Account Active Life $biru(renew)"
-echo -e "$merah 4$putih. Delete SSH & SSL Account $biru(wipeout)"
+echo -e "$merah 4$putih. Delete SSH & SSL Account $biru(hapus)"
 echo -e "$merah 5$putih. Delete User Expired SSH & OpenVPN $biru(delete)"
 echo -e "$merah 6$putih. Set up Autokill SSH $biru(autokill)"
-echo -e "$merah 7$putih. Displays Users Who Do Multi Login SSH $biru(ceklim)"
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e 
 echo -e "$kuning ━━━━━━━━━━━━━━━━$kuning SYSTEM━━━━━━━━━━━━━━━━"
@@ -50,20 +49,17 @@ delete
 elif [[ "$num" = "6" ]]; then
 autokill
 elif [[ "$num" = "7" ]]; then
-ceklim
-elif [[ "$num" = "8" ]]; then
 restart
-elif [[ "$num" = "9" ]]; then
+elif [[ "$num" = "8" ]]; then
 reboot
-elif [[ "$num" = "10" ]]; then
+elif [[ "$num" = "9" ]]; then
 speedtest
-elif [[ "$num" = "11" ]]; then
+elif [[ "$num" = "10" ]]; then
 info
-elif [[ "$num" = "12" ]]; then
+elif [[ "$num" = "11" ]]; then
 about
-elif [[ "$num" = "13" ]]; then
+elif [[ "$num" = "12" ]]; then
 banner
-echo -e ""
 else
 clear
 menu
