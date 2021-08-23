@@ -18,5 +18,5 @@ echo -e "* speedtest  ➢ Speedtest VPS"
 echo -e "* info       ➢ Display system information"
 echo -e "* about      ➢ Info script auto install"
 echo -e "* exit       ➢ Exit PuTTY/Connectbot/"
-echo -e "* banner     ➢ Customize your banner
+echo -e "* edit     ➢ Customize your banner
 echo -e ""
