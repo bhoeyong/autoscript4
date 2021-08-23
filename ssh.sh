@@ -176,6 +176,7 @@ wget -O ram "https://raw.githubusercontent.com/darkrenz/myscript1/main/ram.sh"
 wget -O renew "https://raw.githubusercontent.com/darkrenz/myscript1/main/renew.sh"
 wget -O autokill "https://raw.githubusercontent.com/darkrenz/myscript1/main/autokill.sh"
 wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/clear-log.sh"
+wget -O banner "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner-editor.sh"
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
@@ -195,6 +196,7 @@ chmod +x tendang
 chmod +x ram
 chmod +x renew
 chmod +x clear-log
+chmod +x banner
 
 # remove unnecessary files
 apt -y autoclean
