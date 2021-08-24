@@ -5,8 +5,6 @@ read -p "Password : " Pass
 read -p "Expired (days): " Date
 
 IP=$(wget -qO- icanhazip.com);
-echo Script AutoCreate Akun SSH dan OpenVPN Mod By TuanYz
-sleep 1
 echo Ping Host
 echo Check Access Rights...
 sleep 0.5
