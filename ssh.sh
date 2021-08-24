@@ -83,7 +83,7 @@ apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rs
 echo "clear" >> .profile
 echo "neofetch" >> .profile
 echo "echo 🅼🅾🅳🅸🅵🅸🅴🅳🅱🆈.🅽🅾🆃🅴">> .profile
-echo "echo Type the Magic Keyword 'Menu'">> .profile
+echo "echo Type the Magic Keyword "Menu" ">> .profile
 
 # install badvpn
 cd
@@ -165,6 +165,7 @@ cd /usr/bin
 wget -O about "https://raw.githubusercontent.com/darkrenz/myscript1/main/about.sh"
 wget -O menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O MENU "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
+wget -O Menu "https://raw.githubusercontent.com/darkrenz/myscript1/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/darkrenz/myscript1/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/darkrenz/myscript1/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/darkrenz/myscript1/main/hapus.sh"
@@ -182,6 +183,7 @@ echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
 chmod +x menu
 chmod +x MENU
+chmod +x Menu
 chmod +x usernew
 chmod +x trial
 chmod +x hapus
