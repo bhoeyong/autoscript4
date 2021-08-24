@@ -82,7 +82,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo 🅼🅾🅳🅸🅵🅸🅴🅳+🅽🅾🆃🅴 PLEASE TYPE : menu" >> .profile
+echo "echo e "\E[44;1;37m JUST TYPE : menu  \E[0m" >> .profile
 
 # install badvpn
 cd
