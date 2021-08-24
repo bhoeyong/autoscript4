@@ -154,6 +154,10 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 cd
 /etc/init.d/stunnel4 restart
 
+# banner /etc/issue.net
+echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
+sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
+
 # download script
 cd /usr/bin
 wget -O about "https://raw.githubusercontent.com/darkrenz/myscript1/main/about.sh"
