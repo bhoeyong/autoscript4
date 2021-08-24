@@ -7,7 +7,7 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "\E[40;1;36m             MENU              \E[0m"
+echo -e "\E[106;1;37m              MENU              \E[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "\E[44;1;37m           SSH/SSLWS            \E[0m"
 echo -e "$merah 1$putih. Create SSH & SSL Account $biru(usernew)"
