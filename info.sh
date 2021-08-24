@@ -2,11 +2,11 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━🄸�
 echo ""
 echo "✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕"
 echo ""
-echo "   🅂🄴🅁🅅🄸🄲🄴 🄰🄽🄳 🄿🄾🅁🅃"  | tee -a log-install.txt
-echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - SSH(Websocket)          : 80"  | tee -a log-install.txt
-echo "   - SSL/TLS(WS)             : 443"  | tee -a log-install.txt
-echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
+echo "   🅂🄴🅁🅅🄸🄲🄴 🄰🄽🄳 🄿🄾🅁🅃"
+echo "   - OpenSSH                 : 22"
+echo "   - SSH(Websocket)          : 80"
+echo "   - SSL/TLS(WS)             : 443"
+echo "   - Badvpn                  : 7100, 7200, 7300"
 echo "   - Nginx                   : 81"
 echo ""
 echo "   🅂🄴🅁🅅🄴🅁 🄸🄽🄵🄾🅁🄼🄰🅃🄸🄾🄽 & 🄾🅃🄷🄴🅁 🄵🄴🄰🅃🅄🅁🄴🅂"
