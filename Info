@@ -1,0 +1,17 @@
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━🅰🆄🆃🅾🆂🅲🆁🅸🅿🆃 🅿🆁🅴🅼🅸🆄🅼━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo ""
+echo "✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕" | tee -a log-install.txt
+echo ""
+echo "   🅂🄴🅁🅅🄸🄲🄴 🄰🄽🄳 🄿🄾🅁🅃"
+echo "   - OpenSSH                 : 22"
+echo "   - SSH(Websocket)          : 80"
+echo "   - SSL/TLS(WS)             : 443"
+echo "   - Badvpn                  : 7100, 7200, 7300"
+echo "   - Nginx                   : 81"
+echo ""  | tee -a log-install.txt
+echo "   🅂🄴🅁🅅🄴🅁 🄸🄽🄵🄾🅁🄼🄰🅃🄸🄾🄽 & 🄾🅃🄷🄴🅁 🄵🄴🄰🅃🅄🅁🄴🅂"
+echo ""
+echo "   - Auto-Reboot             : [ON]"
+echo "   - Autoreboot-Time.        : 00.00 GMT +7"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈: 🅽🅾🆃🅴━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
