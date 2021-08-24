@@ -18,7 +18,7 @@ echo -e "$merah 5$putih. Delete User Expired SSH & SSL $biru(delete)"
 echo -e "$merah 6$putih. Set up Autokill SSH $biru(autokill)\E[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e 
-echo -e "\E[44;1;37m        SYSTEM NAVIGATOR     \E[0m"
+echo -e "\E[44;1;37m          SYSTEM NAVIGATOR        \E[0m"
 echo -e "$merah 7$putih.  Restart service SSH/SSL $biru(restart)"
 echo -e "$merah 8$putih.  Reboot VPS $biru(reboot)"
 echo -e "$merah 9$putih.  Speedtest VPS $biru(speedtest)"
@@ -26,8 +26,7 @@ echo -e "$merah 10$putih. Display system information $biru(info)"
 echo -e "$merah 11$putih. Info script auto install $biru(about)"
 echo -e "$merah 12$putih. Customize your banner $biru(banner)"
 echo -e ""
-echo -e "\e[47m To exit the menu press \e[107mCTRL + C \E[0m"
-echo -e "\E[40;1;36m MODIFIED BY NOTE \E[0m"
+echo -e "To exit the menu press CTRL + C"
 read -rp " Please Enter The Number [1-12] : " -e num
 if [[ "$num" = "1" ]]; then
 usernew
