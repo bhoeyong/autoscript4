@@ -1,4 +1,6 @@
-
+# Supported
+Debian 9 & 10
+Ubuntu 18 & 20
 
 # Autoscript
 Update first:
