@@ -13,9 +13,9 @@ chk=$(cat /etc/ssh/sshd_config | grep Banner)
 }
 echo -e "\E[44;1;37m             BANNER             \E[0m"
 echo ""
-echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;37m • \033[1;33mADICIONAR BANNER"
-echo -e "\033[1;31m[\033[1;36m2\033[1;31m]\033[1;37m • \033[1;33mREMOVER BANNER"
-echo -e "\033[1;31m[\033[1;36m3\033[1;31m]\033[1;37m • \033[1;33mVOLTAR"
+echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;37m • \033[1;33mADD BANNER"
+echo -e "\033[1;31m[\033[1;36m2\033[1;31m]\033[1;37m • \033[1;33mREMOVE BANNER"
+echo -e "\033[1;31m[\033[1;36m3\033[1;31m]\033[1;37m • \033[1;33mBACK"
 echo ""
 echo -ne "\033[1;32mOQUE DESEJA FAZER\033[1;31m ?\033[1;37m : "; read resp
 if [[ "$resp" = "1" ]]; then
