@@ -83,7 +83,7 @@ apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rs
 echo "clear" >> .profile
 echo "neofetch" >> .profile
 echo "echo 🅼🅾🅳🅸🅵🅸🅴🅳🅱🆈.🅽🅾🆃🅴">> .profile
-echo "echo Type the Magic Keyword "Menu" ">> .profile
+echo "echo Type the Magic Keyword : Menu">> .profile
 
 # install badvpn
 cd
