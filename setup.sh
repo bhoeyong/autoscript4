@@ -30,22 +30,22 @@ echo "Installation has been completed!!"
 echo " "
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━🅰🆄🆃🅾🆂🅲🆁🅸🅿🆃 🅿🆁🅴🅼🅸🆄🅼━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕" | tee -a log-install.txt
+echo "✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> Service & Port"  | tee -a log-install.txt
+echo "   🅂🄴🅁🅅🄸🄲🄴 🄰🄽🄳 🄿🄾🅁🅃"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - SSH(Websocket)          : 80"  | tee -a log-install.txt
 echo "   - SSL/TLS(WS)             : 443"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 81"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
+echo "   🅂🄴🅁🅅🄴🅁 🄸🄽🄵🄾🅁🄼🄰🅃🄸🄾🄽 & 🄾🅃🄷🄴🅁 🄵🄴🄰🅃🅄🅁🄴🅂"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
-echo "   - Autoreboot On 00.00 GMT +7" | tee -a log-install.txt
+echo "   - Autoreboot              : 00.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈: 🅽🅾🆃🅴━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈 🅽🅾🆃🅴━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
