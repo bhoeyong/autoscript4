@@ -2,7 +2,7 @@
 clear
 echo Installing Websocket-SSH Python
 sleep 1
-echo Cek Hak Akses...
+echo Check Access Rights...
 sleep 0.5
 cd
 #Buat name user github dan nama folder
