@@ -82,7 +82,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo 🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈: 🅽🅾🆃🅴Type : menu" >> .profile
+echo "echo 🅼🅾🅳🅸🅵🅸🅴🅳+🅽🅾🆃🅴 PLEASE TYPE : menu" >> .profile
 
 # install badvpn
 cd
@@ -153,11 +153,6 @@ cd
 sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 cd
 /etc/init.d/stunnel4 restart
-
-# banner /etc/issue.net
-wget -O /etc/issue.net "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner.conf"
-echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
-sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
 # download script
 cd /usr/bin
