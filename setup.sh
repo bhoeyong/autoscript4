@@ -28,7 +28,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━🅰🆄🆃🅾🆂🅲🆁🅸🅿🆃 🅿🆁🅴🅼🅸🆄🅼━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━🅰🆄🆃🅾🆂🅲🆁🅸🅿🆃 🅿🆁🅴🅼🅸🆄🅼━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕✕" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -45,7 +45,7 @@ echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
 echo "   - Autoreboot              : 00.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈 🅽🅾🆃🅴━━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━🅼🅾🅳🅸🅵🅸🅴🅳 🅱🆈 🅽🅾🆃🅴━━━━━━━━━━━━━━━━━━━━━" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
