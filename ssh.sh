@@ -175,7 +175,7 @@ wget -O speedtest "https://github.com/darkrenz/myscript1/raw/main/speedtest_cli.
 wget -O info "https://raw.githubusercontent.com/darkrenz/myscript1/main/info.sh"
 wget -O renew "https://raw.githubusercontent.com/darkrenz/myscript1/main/renew.sh"
 wget -O clear-log "https://raw.githubusercontent.com/darkrenz/myscript1/main/clear-log.sh"
-wget -O banner "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner.sh"
+wget -O banner "https://raw.githubusercontent.com/darkrenz/myscript1/main/banner1.sh"
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
