@@ -17,7 +17,6 @@ echo -e "$merah 4$putih. Delete SSH & SSL Account $biru(hapus)"
 echo -e "$merah 5$putih. Delete User Expired SSH & SSL $biru(delete)"
 echo -e "$merah 6$putih. Set up Autokill SSH $biru(autokill)\E[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e 
 echo -e "\E[44;1;37m          SYSTEM NAVIGATOR        \E[0m"
 echo -e "$merah 7$putih.  Restart service SSH/SSL $biru(restart)"
 echo -e "$merah 8$putih.  Reboot VPS $biru(reboot)"
