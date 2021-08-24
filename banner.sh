@@ -26,10 +26,10 @@ if [[ -z "$msg1" ]]; then
 	sleep 2
 	banner
 fi
-echo -e "\n\033[1;31m[\033[1;36m01\033[1;31m]\033[1;33m Small Font"
-echo -e "\033[1;31m[\033[1;36m02\033[1;31m]\033[1;33m Average Font"
-echo -e "\033[1;31m[\033[1;36m03\033[1;31m]\033[1;33m Large Font"
-echo -e "\033[1;31m[\033[1;36m04\033[1;31m]\033[1;33m Giant Font"
+echo -e "\n\033[1;31m[\033[1;36m01\033[1;31m]\033[1;33m SMALL FONT"
+echo -e "\033[1;31m[\033[1;36m02\033[1;31m]\033[1;33m AVERAGE FONT"
+echo -e "\033[1;31m[\033[1;36m03\033[1;31m]\033[1;33m LARGE FONT"
+echo -e "\033[1;31m[\033[1;36m04\033[1;31m]\033[1;33m GIANT FONT"
 echo ""
 echo -ne "\033[1;32mWhat font size do you want?\033[1;31m ?\033[1;37m : "; read opc
 if [[ "$opc" = "1" ]] || [[ "$opc" = "01" ]]; then
