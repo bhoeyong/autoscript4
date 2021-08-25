@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #Script to delete SSH & SSL WS
 
 read -p "SSH username to delete : " User
