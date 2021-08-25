@@ -7,7 +7,7 @@ putih="\e[1;37m"
 cyan="\e[1;36m"
 clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "\E[37;1;30m              MENU              \E[0m"
+echo -e "\E[41;1;30m              MENU              \E[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "\E[44;1;37m           SSH/SSLWS            \E[0m"
 echo -e "$merah 1$putih. Create SSH & SSL Account $biru(usernew)"
@@ -23,11 +23,11 @@ echo -e "$merah 8$putih.  Reboot VPS $biru(reboot)"
 echo -e "$merah 9$putih.  Speedtest VPS $biru(speedtest)"
 echo -e "$merah 10$putih. Display system information $biru(info)"
 echo -e "$merah 11$putih. Info script auto install $biru(about)"
-echo -e "$merah 12$putih. Customize your banner $biru(banner)"
+echo -e "$merah 12$putih. Customize your banner $biru(banner)\E[0m"
 echo -e ""
-echo -e "  To exit the menu press CTRL + C "
+echo -e "  \e[41mTo exit the menu press CTRL + C \E[0m"
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\E[0m"
-read -rp " Please Enter The Number [1-12] : " -e num
+read -rp "  Please Enter The Number [1-12] : " -e num
 if [[ "$num" = "1" ]]; then
 usernew
 elif [[ "$num" = "2" ]]; then
