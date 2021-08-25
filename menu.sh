@@ -25,7 +25,7 @@ echo -e "$merah 10$putih. Display system information $biru(info)"
 echo -e "$merah 11$putih. Info script auto install $biru(about)"
 echo -e "$merah 12$putih. Customize your banner $biru(banner)\E[0m"
 echo -e ""
-echo -e "  \e[41mTo exit the menu press CTRL + C \E[0m"
+echo -e "\e[46mTo exit the menu press CTRL + C \E[0m"
 echo -e "$putih━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\E[0m"
 read -rp "  Please Enter The Number [1-12] : " -e num
 if [[ "$num" = "1" ]]; then
