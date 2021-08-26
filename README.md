@@ -1,5 +1,5 @@
 # Supported
-Debian 9 & 10
+Debian 9 & 10 /
 Ubuntu 18 & 20
 
 # Autoscript
