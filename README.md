@@ -10,5 +10,5 @@ Install SSH WS / SSL WS:
 
 apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/darkrenz/myscript1/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
-![IMG_20210824_184225](https://user-images.githubusercontent.com/30442976/130624571-ed4a0a95-cabb-4c88-8fee-2334b060efd9.jpg)
+![Remini20210825235602285](https://user-images.githubusercontent.com/30442976/130884577-bf1c6bb5-a039-405c-b08a-218db37b6f08.jpg)
 
