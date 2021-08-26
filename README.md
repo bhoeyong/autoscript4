@@ -1,3 +1,5 @@
+
+# Supported
 Debian 9 & 10 /
 Ubuntu 18 & 20
 
@@ -11,6 +13,7 @@ SSH WS Dropbear (REMOVE)
 SSH WS Port: 80
 SSL WS Port: 443
 
++*+*+*+*+*+*+*+*+*+*+*+*+*+*-*-*-*-*-*-*-*-*-*
 
 Install SSH WS / SSL WS:
 
