@@ -9,7 +9,9 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 # Features
 Open SSH (NO SQUID)
+
 WEBSOCKET Dropbear (REMOVED)
+
 OVPN WEBSOCKET (REMOVED)
 
 SSH WS Port: 80
