@@ -1,4 +1,3 @@
-# /usr/local/bin/ws-dropbear
 # /usr/local/bin/ws-openssh
 # /usr/local/bin/ws-stunnel
 [Unit]
