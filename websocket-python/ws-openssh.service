@@ -1,4 +1,3 @@
-# /usr/local/bin/ws-dropbear
 # /usr/local/bin/ws-openssh
 # /usr/local/bin/ws-stunnel
 [Unit]
@@ -17,3 +16,4 @@ ExecStart=/usr/bin/python -O /usr/local/bin/ws-openssh
 
 [Install]
 WantedBy=multi-user.target
+
