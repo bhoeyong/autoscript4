@@ -16,4 +16,3 @@ ExecStart=/usr/bin/python -O /usr/local/bin/ws-openssh
 
 [Install]
 WantedBy=multi-user.target
-
